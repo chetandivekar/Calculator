@@ -1,0 +1,240 @@
+
+
+:root {
+    --bg-color: rgba(236, 233, 233, 0.932) ;
+    --blue-color: #429aa6;
+    --orange-color: #d0842f;
+    --font-color: #272727;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1DB954;
+    background-color: #F6AFB5;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    font-size: 25px;
+    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    /* font-family: 'Seymour One', sans-serif; */
+
+}
+button{
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-family: 'Seymour One', sans-serif; */
+    font-family: 'Poppins';
+    box-shadow: 2px 3px #000;
+    font-weight: bolder;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.wrapper{
+    width: 230px;
+    height: 100px;
+    border: 3px solid #000;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 25px;
+
+
+}
+
+.orangediv{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10px;
+    background-color: #f5ddc2;
+}
+
+
+.bluediv{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 10px;
+    background-color: #b6f0f885;
+}
+.wrapper input{
+    border: none;
+    width: 230px;
+    height: 100px;
+    font-size: 30px;
+    text-align: end;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+    padding: 0 15px 0 0 ;          
+}
+.big{
+    width: 100px;
+}
+
+.upperac{
+    padding: 0 18px;
+}
+.mobile{
+    width: 250px;
+    height: 540px;
+    border-radius: 25px;
+    box-shadow: 0 0 0 8px #000,
+                0 0 0 11px var(--font-color),
+                0 0 0 12px rgb(218, 216, 216);
+    background-color: var(--bg-color);
+}
+
+.notification{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#time{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.notch{
+    width: 80px;
+    height: 22px;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+
+
+.material-symbols-outlined {
+    width: 5px;
+    height: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.name .upper{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+}
+
+.name .lower{
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: rgb(167, 165, 165);
+}
+.casio{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 20px;
+   
+    /* border: 2px solid red; */
+}
+.box1{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px;
+}
+
+.san-serif{
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+
+.home-btn{
+    width: 100px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: rgb(124, 124, 124);
+    position: absolute;
+    top: 600px;
+}
+.blue{
+    color: var(--blue-color);
+}
+.orange{
+    color: var(--orange-color);
+}
+
+.footer p{
+    color: #000;
+    position: absolute;
+    right: 44%;
+    top: 90%;
+    font-family: 'Poppins';
+}
+
+.heart img{
+    /* background-image: url(./img/red-heart-icon.png); */
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+
+}
+
+@media (max-width: 600px) {
+
+    .footer p{
+        color: #000;
+        position: absolute;
+        right: 25%;
+        top: 98%;
+        font-family: 'Poppins';
+    }
+    .heart img{
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+    
+    }
+    .home-btn{
+        width: 100px;
+        height: 4px;
+        border-radius: 50px;
+        background-color: rgb(124, 124, 124);
+        position: absolute;
+        top: 610px;
+    }
+  }
