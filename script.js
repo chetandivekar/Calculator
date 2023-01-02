@@ -56,9 +56,6 @@ let time = document.getElementById("time");
 
 
 
-
-
-
 // let btn = document.getElementById("click");
 // btn.addEventListener('click', ()=>{
 //     let num = Math.floor(Math.random() * 100)
