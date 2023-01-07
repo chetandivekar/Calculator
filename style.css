@@ -98,6 +98,7 @@ button{
     padding: 0 18px;
 }
 .mobile{
+    position: relative;
     width: 250px;
     height: 540px;
     border-radius: 25px;
@@ -190,7 +191,7 @@ button{
     border-radius: 50px;
     background-color: rgb(124, 124, 124);
     position: absolute;
-    top: 600px;
+    bottom:10px;
 }
 .blue{
     color: var(--blue-color);
@@ -199,11 +200,12 @@ button{
     color: var(--orange-color);
 }
 
-.footer p{
+.footer {
     color: #000;
-    position: absolute;
-    right: 44%;
-    top: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
     font-family: 'Poppins';
 }
 
@@ -215,14 +217,18 @@ button{
 
 }
 
+
+/* Code for the mobile screen */
+
 @media (max-width: 600px){
 
-    .footer p{
-        color: #000;
-        position: absolute;
-        right: 25%;
-        top: 98%;
-        font-family: 'Poppins';
+    .footer {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center;
+    font-family: 'Poppins';
     }
     .heart img{
         background-repeat: no-repeat;
@@ -236,6 +242,6 @@ button{
         border-radius: 50px;
         background-color: rgb(124, 124, 124);
         position: absolute;
-        top: 610px;
+        bottom:10px;
     }
   }
